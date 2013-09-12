@@ -26,7 +26,7 @@
 
     <div id="menu-bg">
         <div class="search">
-            <input type="text" id="searchbox" autocomplete="off" value="Поиск..." >
+            <input type="text" id="searchbox" autocomplete="off" value="Поиск..." onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;" >
         </div>
         <ul class="menu">
             <li class="glav"><a href="">Главная</a></li>
