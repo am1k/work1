@@ -293,6 +293,7 @@ input {
     height: 16px;
     text-transform: capitalize;
     padding-left:5px;
+    font-size: 12px;
     font-family: 16px, Tahoma,Arial,sans-serif,sans;
     background: #fdfff -76px -48px no repeat;
     margin: 12px 30px 0;
